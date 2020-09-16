@@ -5,10 +5,6 @@ date: "9/16/2020"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 This is the data of US weather history in 2014 that was obtained from [FiveThirtyEight](https://github.com/fivethirtyeight/data/blob/master/us-weather-history/KCLT.csv)
 
 The data layout looks like this
