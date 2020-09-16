@@ -1,4 +1,3 @@
-setwd("C:/Users/pc/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/home/muhamadrifkiramadhan/essentials/")
 weather <- read.csv("weather.csv")
 weather[1:10,]
 avg_temp <- weather[,2]
