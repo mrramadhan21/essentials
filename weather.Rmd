@@ -2,7 +2,12 @@
 title: "Weather Plot"
 author: "Muhamad R. Ramadhan"
 date: "9/16/2020"
-output: html_document
+output:
+  github_document:
+    toc: true
+    toc_depth: 3
+  editor_options:
+    chunk_output_type: inline
 ---
 
 This is the data of US weather history in 2014 that was obtained from [FiveThirtyEight](https://github.com/fivethirtyeight/data/blob/master/us-weather-history/KCLT.csv)
